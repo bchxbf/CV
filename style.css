@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Comforter&family=Supermercado+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comforter&family=Supermercado+One&display=swap');
+.main-wrapper {
+    width: 750px;
+    height: 1050px;
+    margin: 0 auto;
+    margin-top: 30px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5) ;
+    position: relative;
+}
+
+.circle-top {
+    width: 250px;
+    height: 250px;
+    background-color: rgba(255, 51, 0, 0.753);
+    clip-path: circle(60% at 20% 25%);    
+}
+
+.circle-bottom{
+    width: 250px;
+    height: 250px;
+    background-color: rgba(255, 51, 0, 0.753);
+    clip-path: circle(60% at 80% 90%);    
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.small-circle-top {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: rgba(245, 160, 2, 0.973);
+    position: absolute;
+    top: 140px;
+    right: 120px;
+}
+
+.small-circle-bottom {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: rgba(245, 160, 2, 0.973);
+    position: absolute;
+    bottom: 30px;
+    right: 160px;
+}
+
+.border-circle-top {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 3px solid rgba(45, 111, 165, 0.5);
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+
+.border-circle-bottom {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 3px solid rgba(45, 111, 165, 0.5);
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+
+.block-top {
+    width: 25px;
+    height: 140px;
+    background-color: rgba(255, 208, 0, 0.651);
+    position: absolute;
+    top: 135px;
+    right: 0;
+}
+
+.block-bottom {
+    width: 25px;
+    height: 140px;
+    background-color: rgba(255, 208, 0, 0.651);
+    position: absolute;
+    bottom: 135px;
+    left: 0;
+}
+
+.small-block {
+    width: 10px;
+    height: 70px;
+    background-color: rgba(255, 174, 0, 0.747);
+    position: absolute;
+}
+
+.small-block-top-one {
+    top: 0;
+    right: 280px;
+}
+
+.small-block-top-two {
+    top: 0;
+    right: 260px;
+}
+
+.small-block-bottom-one {
+    bottom: 0;
+    left: 280px;
+}
+
+.small-block-bottom-two {
+    bottom: 0;
+    left: 260px;
+}
+
+.wrapper {
+    width: 600px;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    margin-top: -189px;
+    margin-left: -11px;
+    position: absolute;
+    z-index: 1;
+    align-items: center;
+}
+
+.main-img {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    border: 10px solid white;
+    margin-right: 30px;
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.5);
+}
+
+header h2 {
+    font-family: 'Supermercado One', cursive;
+    color: rgba(0, 0, 0, 0.534);
+}
+
+header h1 {
+    font-family: sans-serif;
+}
+
+.contacts li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style: none;
+}
+
+.contacts img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: rgba(12, 12, 12, 0.829);
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.contacts {
+    margin-top: 30px;
+    margin-left: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.about {
+    margin-left: 40px;
+    margin-right: -30px;
+    margin-top: -15px;
+    text-align: justify;
+    color: rgba(12, 12, 12, 0.829);
+}
+
+figure img {
+    width: 180px;
+    margin-left: -30px;
+    transition: 0.3s;
+    border: 6px solid white;
+    border-radius: 10px;
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.733) ;
+}
+
+.bg-column {
+    background-color: rgba(255, 85, 43, 0.603);
+    width: 260px;
+    box-sizing: border-box;
+    padding: 10px 30px;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+figure figcaption {
+    margin-left: 15px;
+    margin-top: 5px;
+}
+
+.experience h3 {
+    margin-left: 30px;
+}
+
+figure img:hover {
+    transform: scale(1.2);
+}
+
+.code {
+    margin-top: 10px;
+    font-family: sans-serif;
+}
+
+code {
+    font-size: 12px;
+}
+
+main {
+    display: flex;
+}
+
+aside {
+    margin-left: 20px;
+}
+
+.stars {
+    color: cadetblue;
+}
+
+aside div {
+    margin-top: -20px;
+    margin-left: 70px;
+}
+
+aside div h3 {
+    margin-left: 60px;
+}
+
+body {
+    color: rgba(12, 12, 12, 0.815);
+}
+
+.education {
+    margin-top: 50px;
+}
+
+.english {
+    margin-top: 50px;
+}
